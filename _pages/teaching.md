@@ -2,11 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### UC Berkeley
+- MATH 128B: Numerical Analysis II, 2024 Spring
+- STAT 134: Concepts of Probability, 2023 Fall
+- MATH 1B: Calculus, 2022 Fall
+- MATH 54: Linear Algebra and Differential Equations, 2022 Spring
+- MATH 16A: Analytic Geometry and Calculus, 2021 Fall
 
-Organize your courses by years, topics, or universities, however you like!
+### University of Chicago 
+- BUS 41204: Maching Learning, 2021 Fall
