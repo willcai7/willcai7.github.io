@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in Math at [UC Berkeley](https://math.berkeley.edu/home). My advisors are [Michael Lindsey](https://quantumtative.github.io/) and [Peter L. Bartlett](https://www.stat.berkeley.edu/~bartlett/). I obtained my M.A. in Statistics at [University of Chicago](https://stat.uchicago.edu/), and my B.S. in Math at [Peking University](https://www.math.pku.edu.cn/puremath_en/).
+I am a Ph.D. student in Math at [UC Berkeley](https://math.berkeley.edu/home). My advisors are [Michael Lindsey](https://quantumtative.github.io/) and [Peter L. Bartlett](https://www.stat.berkeley.edu/~bartlett/). I obtained my M.A. in Statistics at [University of Chicago](https://stat.uchicago.edu/), and my B.S. in Math at [Peking University](https://www.math.pku.edu.cn/).
 
 ### Research
 
