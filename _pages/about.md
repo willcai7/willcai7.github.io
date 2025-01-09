@@ -24,7 +24,7 @@ I am a Ph.D. student in Math at [UC Berkeley](https://math.berkeley.edu/home). M
 
 My research focuses on creating efficient algorithms to address real-world challenges and providing a deep understanding of the theoretical principles behind them. By connecting theoretical foundations with practical applications, my work aims to advance both academic knowledge and technological innovation.
 
-I specialize in optimizations for high-dimensional problems, particularly in **electronic structure theory** and **machine learning**.
+I specialize in optimizations for high-dimensional problems, particularly in **Multimodal Learning** and **Large Language Model**.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
