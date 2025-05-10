@@ -1,0 +1,37 @@
+---
+---
+<div class="publication-item">
+  <h3>{{ entry.title }}</h3>
+  <p class="authors">
+    {% assign authors = entry.author | split: " and " %}
+    {% for author in authors %}
+      {% assign name_parts = author | split: ", " %}
+      {% assign last_name = name_parts[0] | strip %}
+      {% if name_parts.size > 1 %}
+        {% assign first_name = name_parts[1] | strip %}
+      {% else %}
+        {% assign first_name = "" %}
+      {% endif %}
+      
+      {% if last_name == "Cai" and first_name contains "Yuhang" %}
+        <a href="{{ site.baseurl }}/" class="author-link">{{ first_name }} {{ last_name }}</a>{% unless forloop.last %}, {% endunless %}
+      {% else %}
+        {{ first_name }} {{ last_name }}{% unless forloop.last %}, {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </p>
+  <p class="venue">
+    {% if entry.journal %}
+      {{ entry.journal }}
+    {% elsif entry.booktitle %}
+      {{ entry.booktitle }}
+    {% endif %}
+    {% if entry.year %}
+      {{ entry.year }}.
+    {% endif %}
+    {% if entry.arxiv %}
+      <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="arxiv-button">arXiv:{{ entry.arxiv }}</a>
+    {% endif %}
+  </p>
+  <hr>
+</div>

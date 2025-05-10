@@ -1,0 +1,28 @@
+---
+---
+<div class="publication-item">
+  <h3>{{ entry.title }}</h3>
+  <p class="authors">
+    {% for author in entry.author_array %}
+      {% if author.last contains 'Zhang' and author.first contains 'Chiyuan' %}
+        <a href="{{ site.baseurl }}/" class="author-link">{{ author.first }} {{ author.last }}</a>{% unless forloop.last %}, {% endunless %}
+      {% else %}
+        {{ author.first }} {{ author.last }}{% unless forloop.last %}, {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </p>
+  <p class="venue">
+    {% if entry.journal %}
+      {{ entry.journal }}
+    {% elsif entry.booktitle %}
+      {{ entry.booktitle }}
+    {% endif %}
+    {% if entry.year %}
+      {{ entry.year }}.
+    {% endif %}
+    {% if entry.arxiv %}
+      <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="arxiv-link">arXiv:{{ entry.arxiv }}</a>
+    {% endif %}
+  </p>
+  <hr>
+</div>

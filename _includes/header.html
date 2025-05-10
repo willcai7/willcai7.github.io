@@ -1,0 +1,45 @@
+<header class="site-header desktop-header">
+  <div class="wrapper">
+    <!-- Mobile/Desktop header with different display based on screen size -->
+    <div class="site-nav">
+      <div class="left-nav">
+        <a class="site-title" href="{{ site.baseurl }}/">Yuhang Cai (蔡榆杭)</a>
+        <a href="{{ site.baseurl }}/publications">Publications</a>
+        <a href="{{ site.baseurl }}/services">Services</a>
+        <a href="{{ site.baseurl }}/assets/files/CV.pdf" target="_blank">CV</a>
+      </div>
+      <div class="right-nav">
+        <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i></a>
+        <a href="https://scholar.google.com/citations?user=sJI2aOYAAAAJ&hl=zh-CN&oi=ao"><i class="ai ai-google-scholar"></i></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Header (visible only on mobile) -->
+<header class="mobile-header">
+  <div class="wrapper">
+    <div class="mobile-nav">
+      <a class="site-title" href="{{ site.baseurl }}/">Yuhang Cai (蔡榆杭)</a>
+      <button id="dropdown-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </div>
+  
+  <!-- Mobile Dropdown Menu -->
+  <div id="dropdown-menu">
+    <div class="dropdown-links">
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/publications">Publications</a>
+      <a href="{{ site.baseurl }}/services">Services</a>
+      <a href="{{ site.baseurl }}/assets/files/CV.pdf" target="_blank">CV</a>
+    </div>
+    <div class="dropdown-social">
+      <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user={{ site.scholar_username }}"><i class="ai ai-google-scholar"></i></a>
+    </div>
+  </div>
+</header>
