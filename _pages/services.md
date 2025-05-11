@@ -12,14 +12,13 @@ I have been teaching assistant for the following courses:
 
 - UC Berkeley
   - MATH 1B: Calculus, 2024 Fall
-  - MATH 128A: Numerical Analysis I, 2024 Fall
-  - MATH 128B: Numerical Analysis II, 2024 Spring
+  - MATH 128A: Numerical Analysis I, 2024 Spring
   - STAT 134: Concepts of Probability, 2023 Fall
   - MATH 1B: Calculus, 2022 Fall
   - MATH 54: Linear Algebra and Differential Equations, 2022 Spring
   - MATH 16A: Analytic Geometry and Calculus, 2021 Fall
 - UChicago:
-  - BUS 41204: Maching Learning, 2021 Fall
+  - BUS 41204: Maching Learning, 2021 Spring
 
 
 ## Reviewer
