@@ -21,7 +21,6 @@
 title: Yuhang Cai
 email: willcai@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Yuhang Cai's personal website - Phd student at UC Berkeley
 author: Yuhang Cai
 language: en
 timezone: America/Los_Angeles
@@ -30,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: willcai7
 github_username: willcai7
 instagram_username: willcai7 
-linkedin_username: willcai7
+linkedin_username: yuhang-cai-a4a1741a1
 scholar_username: sJI2aOYAAAAJ
 
 # Build settings
@@ -38,6 +37,10 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-scholar
+
+# Include pages directory in build
+include:
+  - _pages
 
 # Jekyll-scholar configuration
 scholar:

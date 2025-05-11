@@ -10,7 +10,7 @@ permalink: /services/
 ## Teaching 
 I have been teaching assistant for the following courses:
 
-- UC Berkeley:
+- UC Berkeley
   - MATH 1B: Calculus, 2024 Fall
   - MATH 128A: Numerical Analysis I, 2024 Fall
   - MATH 128B: Numerical Analysis II, 2024 Spring
@@ -23,8 +23,8 @@ I have been teaching assistant for the following courses:
 
 
 ## Reviewer
-- Conferences:
-  - [NeurIPS](https://neurips.cc/) (2024-2025), [ICLR](https://iclr.cc/) (2025), [AISTATS](https://aistats.org/) (2023)
+- Conferences
+  - [NeurIPS](https://neurips.cc/) (2024-2025), [ICLR](https://iclr.cc/) (2025)
 
-- Journals:
+- Journals
   - [JMLR](https://jmlr.org/), [LMA](https://www.tandfonline.com/journals/glma20), [LAIA](https://www.sciencedirect.com/journal/linear-algebra-and-its-applications)
